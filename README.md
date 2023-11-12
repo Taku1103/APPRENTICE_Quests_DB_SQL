@@ -11,7 +11,7 @@
     6. [channels_slots.sql](./sample_data/channels_slots.sql)
     7. [programs-genres.sql](./sample_data/programs-genres.sql)
 
-# STEP3のSQL
+# STEP3のクエリ
 [Quest_Queries](./Quest_Queries) のフォルダ内にある各SQLを実行する。クエストの番号とクエリの番号が対応している。
 
 ### 補足
