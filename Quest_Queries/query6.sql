@@ -1,5 +1,3 @@
---6
-
 WITH GenreAvg AS (
     SELECT
         gen.ジャンル名,

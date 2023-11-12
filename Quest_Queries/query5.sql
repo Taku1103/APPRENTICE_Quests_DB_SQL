@@ -1,6 +1,3 @@
---5
---直近の一週間を' BETWEEN (NOW() - INTERVAL 1 WEEK) AND NOW()で取得'
-
 SELECT
     pro.番組名 AS 番組タイトル,
     SUM(epi.エピソード再生数) AS 週間エピソード視聴合計数
