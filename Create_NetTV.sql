@@ -78,11 +78,3 @@ ALTER TABLE Programs_Genres ADD(
 
 ALTER TABLE Episodes ADD
     FOREIGN KEY fk_epi_pro(番組ID) REFERENCES Programs(番組ID);
-
-source ./sample_data/channels.dmp
-source ./sample_data/genres.dmp
-source ./sample_data/programs.dmp
-source ./sample_data/episodes.dmp
-source ./sample_data/slots.dmp
-source ./sample_data/channels_slots.dmp
-source ./sample_data/programs-genres.dmp
