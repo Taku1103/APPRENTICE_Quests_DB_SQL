@@ -12,7 +12,8 @@
     7. [programs-genres.sql](./sample_data/programs-genres.sql)
 
 # STEP3のSQL
-[./Queries_NetTV.sql](./Queries_NetTV.sql) のファイル内にあるSQLを実行する。クエストの番号とコマンド上部にある番号が対応している。
+[Quest_Queries](./Quest_Queries) のフォルダ内にある各SQLを実行する。クエストの番号とクエリの番号が対応している。
+
 ### 補足
 3:本日を'2023-11-07'とする。
 
