@@ -2,6 +2,14 @@
 1. MySQLにrootユーザー等のデータベース（以下DB）作成権限等をもつ高位のユーザーでアクセスし、任意の名前のDBを作成する（以下DB名を'nettv'とする）。
 2. USEコマンドで作成したDBを指定。
 3. [./Create_NetTV.sql](./Create_NetTV.sql) のファイル内にあるSQLを上から順に実行する。
+4. [.sample_data](./sample_data)フォルダ内のSQLファイルを以下の順に実行する。
+    1. [channels.sql](./channels.sql)
+    2. [genres.sql](./genres.sql)
+    3. [programs.sql](./programs.sql)
+    4. [episodes.sql](./episodes.sql)
+    5. [slots.sql](./slots.sql)
+    6. [channels_slots.sql](./channels_slots.sql)
+    7. [programs-genres.sql](./programs-genres.sql)
 
 # STEP3のSQL
 [./Queries_NetTV.sql](./Queries_NetTV.sql) のファイル内にあるSQLを実行する。クエストの番号とコマンド上部にある番号が対応している。

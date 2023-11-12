@@ -79,9 +79,6 @@ ALTER TABLE Programs_Genres ADD(
 ALTER TABLE Episodes ADD
     FOREIGN KEY fk_epi_pro(番組ID) REFERENCES Programs(番組ID);
 
-
---サンプルデータ挿入 dumpファイル 外部キー関係により上から順に実行すること
-
 source ./sample_data/channels.dmp
 source ./sample_data/genres.dmp
 source ./sample_data/programs.dmp
